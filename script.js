@@ -1,7 +1,8 @@
 //your JS code here. If required.
-let count=document.getElementById("status").innerHTML
+//let count=document.getElementById("status").innerHTML
 function changeMatter(){
-  document.getElementById("status").innerHTML=count;
-	 count="Entered Metaverse"
+  document.getElementById("status").innerHTML="Entered Metaverse"
+
 }
-changeMatter();  
+//changeMatter();  
+
