@@ -1,6 +1,7 @@
 //your JS code here. If required.
+let count=document.getElementById("status").innerHTML
 function changeMatter(){
-  // window.onload(); 
-	document.getElementById("status").innerHTML="Entered Metaverse";
+  document.getElementById("status").innerHTML=count;
+	 count="Entered Metaverse"
 }
-changeMatter();
+changeMatter();  
